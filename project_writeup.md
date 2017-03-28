@@ -113,9 +113,9 @@ The code for training the model is located in the 13th and 14th cell of the ipyt
 
 I used used mean cross entropy with the Adam optimizer. My hyperparameters were
 
-learning rate = 0.002
-batch size = 256
-epochs = 15
+- learning rate = 0.002
+- batch size = 256
+- epochs = 15
 
 The batch size was mostly chosen for speed (it just took a few minutes to train). The learning rate was increased from the default 0.001 to further speed the training up. I used 15 epochs because after 15 the results did not improve.
 
