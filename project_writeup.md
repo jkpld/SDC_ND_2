@@ -130,6 +130,7 @@ My final model results were:
 
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
+
 In the beginning I simply use the LeNet architecture; with my pre-processing, I was able to get just over 0.93 validation accuracy. I then switched the ReLU layers to sigmoid layers and was able to get ~0.96-0.97 validation accuracy. I wanted to try making an architecture though.
 The first architecture I tried was essentially the final architecture I showed in the image above, but without the first convolution (I immediately created the two branches.) However, I soon modified this to add the initial convolution layer as the first layer should identify the low level features. I then realized the model was overfitting the training set, so I added in the dropouts.
 The result of this network was a validation accuracy quite close to the values listed in the table of the Paper linked to the ipython notebook, so I stopped. I do not know if this is a well known architecture or not, so I cannot comment on that, but I explained why I used this architecture above.
