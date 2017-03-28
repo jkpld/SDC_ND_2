@@ -142,8 +142,8 @@ The result of this network was a validation accuracy quite close to the values l
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6]
-![alt text][image7] ![alt text][image8]
+![im1][image4] ![im2][image5] ![im3][image6]
+![im4][image7] ![im5][image8]
 
 The third and fourth signs are the most interesting. The third sign does not have a counterpart in the image set (which only goes up to speeds of 120). The fourth image is seen on an angle has as quite different lighting.
 
@@ -151,11 +151,11 @@ The third and fourth signs are the most interesting. The third sign does not hav
 
 The code for making predictions on my final model is located in the 16th cell of the Ipython notebook, and the results are displayed in the 19th through 23rd cells. Below I show each of the test images along with a bar plot of the first 5 predictions (in log scale) and I include an example image of the top 5 results from the training set.
 
-![alt text][image9]
-![alt text][image10]
-![alt text][image11]
-![alt text][image12]
-![alt text][image13]
+![im1r][image9]
+![im2r][image10]
+![im3r][image11]
+![im4r][image12]
+![im5r][image13]
 
 Image 1, 2, and 5, have very large probabilities of being the correct class.
 
